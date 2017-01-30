@@ -6,7 +6,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && \
 	apt-get install \
 	build-essential \
-  uuid-dev \
+	uuid-dev \
 	libssl-dev \
 	-qqy \
 	--no-install-recommends \
