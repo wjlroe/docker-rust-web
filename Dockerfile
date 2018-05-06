@@ -12,4 +12,6 @@ RUN apt-get update && \
 	--no-install-recommends \
 	&& rm -rf /var/lib/apt/lists/*
 
+ENV LAST_RUST_IMAGE_UPDATE=2018-05-06
+
 RUN rustc --version
